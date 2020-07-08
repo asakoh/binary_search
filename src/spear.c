@@ -26,7 +26,7 @@ int main() {
         }
     }
     lb = 0;
-    ub = max;
+    ub = max+1;
 
     while (ub - lb > 1) {
         int mid = (lb + ub) / 2;
